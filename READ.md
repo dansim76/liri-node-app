@@ -71,12 +71,12 @@ Available functions:
 Running the following commands in your terminal will do the following:
 
 ```
-liri mytweets
+node liri.js mytweets
 ```
 * will log your last 20 tweets and when they were created
 
 ```
-liri spotify 'song name'
+node liri.js spotify 'song name'
 ```
 
 * log the following information about the song:
@@ -90,7 +90,7 @@ liri spotify 'song name'
 * if no song is provided then the program will output information for the song ' by the sign'fault
 
 ```
-liri omdb <movie name>
+node liri.js omdb <movie name>
 ```
 
 * this would log the following information about the movie:
@@ -108,7 +108,7 @@ liri omdb <movie name>
 * if no movie is provided then the program will output information for the movie 'Mr.Nobody' by default
 
 ```
-liri do-what-it-says
+node liri.js do-what-it-says
 ```
 
 * The program will take the text inside of random.txt and use it to call the first command with the second part as it's parameter
